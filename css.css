@@ -8,8 +8,7 @@
 }
 body{
    width: 100vw;
-   overflow-x: none;
-   overflow-y: auto;
+   overflow-x: hidden;
    height: 150vh;
    background: linear-gradient(180deg, #1a1a1b, #20203c);
    display: flex;
