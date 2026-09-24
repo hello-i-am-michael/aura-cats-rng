@@ -54,7 +54,7 @@ function roll(){
 }
 debt_cont.addEventListener('click', (e) => {
 
-    if(money < 0 && count[0] === 0 && debt.toFixed(1) < 1){
+    if(money < 0 && count[0] === 0 && Number(debt).toFixed(1) < 1){
         count[0] = 1;
         debt += 0.1;
         money = 0;
