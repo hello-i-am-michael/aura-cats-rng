@@ -6,6 +6,7 @@
 }
 body{
     width: 100vw;
+	overflow-x: hidden;
     height: 150vh;
     background: linear-gradient(180deg,#ffffff, #d7caca);
     display: flex;
