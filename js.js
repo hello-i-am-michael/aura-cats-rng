@@ -177,6 +177,7 @@ block.addEventListener('click', (e) => {
             block.style.opacity = 1;
             count[3] = 0;
             blocked = false;
+            updateStats();
         }, 600000);
     }
 });
